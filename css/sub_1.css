@@ -1,0 +1,176 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+
+#wrap{width: 1100px; margin: 0 auto;}
+.slider01 {
+width: 1100px;
+height: 300px;
+background-position: center;
+background-size: cover;
+}
+
+section {
+width: 100%;
+height: 3800px;
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+
+article {
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.left {
+width: 500px;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.right {
+width: 600px;
+height: 369px;
+padding-left: 20px;
+background-color: rgb(231, 216, 202);
+}
+
+
+#text_start {
+display: flex;
+flex-direction: row;
+}
+
+.leftbox {
+width: 500px;
+}
+
+.leftbox h1 {
+font-size: 55px;
+text-align: right;
+padding: 10px;
+}
+
+.leftbox span {
+width: 50px;
+height: 50px;
+border-top: 8px solid rgb(90, 213, 230);
+}
+
+.rightbox {
+width: 600px;
+height: auto;
+background-color: #eee;
+}
+
+.rightbox p {
+font-size: 18px;
+padding: 30px;
+text-align: justify;
+}
+
+
+.years h1 {
+width: 100%;
+font-family: "headline R";
+font-size: 60px;
+margin-top: 20px;
+}
+
+
+.years .h_48 {
+opacity: 0.4;
+}
+
+.years .h_49 {
+opacity: 0.7;
+}
+
+.years .h_50 {
+margin: 20px 0;
+}
+
+.text_01 {
+padding: 20px;
+}
+
+.text_01 h1 {
+font-family: "궁서";
+font-size: 35px;
+display: inline-block;
+}
+
+.text_01 p {
+width: 500px;
+font-size: 14px;
+color: #666;
+margin-top: 30px;
+text-align: justify;
+}
+
+.left {
+width: 500px;
+height: 400px;
+}
+.left img{width: 100%;}
+.img_box{
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.img_box ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.img_box ul img{width: 98px; height: auto; }
+.img_box ul img:hover{opacity: 0.8;}
+
+
+
+.slider02 {
+width: 100%;
+height: 400px;
+background-color: #d0d0d1;
+}
+
+.slider02 div {
+width: 1100px;
+height: 370px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 15px;
+}
+
+.h_80 {
+margin-top: 500px;
+}
+
+.last_box {
+width: 100%;
+height: 400px;
+background-color: rgb(216, 216, 216);
+}
+
+.last {
+width: 1100px;
+height: 400px;
+display: flex; align-items: center;
+justify-content: center;
+}
+
+.last div {
+width: 230px;
+height: 320px;
+background-position: center;
+background-size: cover;
+}
