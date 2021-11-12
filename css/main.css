@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#slider{width: 100%; height: 382px; background-color: rgb(121, 204, 246); margin: 0 auto;}
+#slider img{width:900px; height: auto; position: relative; left: 430px; }
+#slider .title{position: relative; bottom: 250px; left: 350px; }
+#slider h1{color:white; font-family: "SBAggroB"; font-size: 50px; }
+#slider h3{left: 150px; color:white;}
+
+
