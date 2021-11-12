@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {margin: 0; padding: 0;}
+#form{width: 1100px; margin: 0 auto;}       
+#main_pic {width: 1100px; height: 300px; }
+#main_pic img {width: 100%; height: 300px; position:relative;}
+#main_pic p {position:absolute; top:350px; left:40px; font-size: 25pt; color: white; }
+
+#history {width: 1100px; height: 3000px;  margin: 0 auto;}
+#historyline {width: 10%; height: 3000px;   float: left; border-radius: black 3px;}
+#line {width: 50%; height: 500px; float: right; border-left: #01b1c8 3px solid; border-top: 2px solid #01b1c8; }
+#line:first-child {width: 50%; height: 530px; float: right; }
+#line:last-child {width: 50%; height: 1462px; float: right; border-left: #01b1c8 3px solid; border-top: 2px solid #01b1c8; }
+
+.dot {width: 10px; height: 10px; border-radius: 50%; background-color: orange; display: inline-block; margin-left: -6px; }
+.dot h2 {position: relative; left: 10px; }
+.dot1 {width: 10px; height: 10px; border-radius: 50%; background-color: orange; display: inline-block; margin-left: -6px;}
+.dot1 h2 {position: relative; left: 10px;}
+.dot2 {width: 10px; height: 10px; border-radius: 50%; background-color: orange; display: inline-block; margin-left: -6px;}
+.dot2 h2 {position: relative; left: 10px;}
+.dot3 {width: 10px; height: 10px; border-radius: 50%; background-color: orange; display: inline-block; margin-left: -6px;}
+.dot3 h2 {position: relative; left: 10px;}
+
+#box {width: 89%; height: 2400px; float: right; }
+#historycontent {width: 100%; height: 250px;  }
+
+.fir_info {width: 100%; height: 100%; margin: 0 auto; }
+.fir_info img {width: 200px; height: 200px; float: right;}
+.fir_info p {padding: 20px;}
+
+.sec_info {width: 100%; height: 100%; margin: 0 auto;}
+.sec_info img {width: 200px; height: 200px; float: left;}
+.sec_info p {padding: 20px;}
