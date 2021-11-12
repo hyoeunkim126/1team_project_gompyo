@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cafe24Danjunghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul,li,ol {text-decoration: none; list-style: none; margin: 0; padding: 0;}
+
+#wrap {width: auto; height: auto; margin: 0 auto;}
+#wrap h2 {font-family: "카페24 단정해"; font-size: 35px; word-spacing: 10px; line-height: 1.2;}
+#wrap h2:hover {color: #01b1c8; cursor: default;}
+#wrap h3 {font-family: "카페24 단정해"; font-size: 25px; word-spacing: 10px; line-height: 1.2;}
+#wrap p {font-weight: bold;}
+
+
+
+#history {width: 1100px; height: 500px; margin: 0 auto; position: relative;}
+.htext {width: 350px; height: 180px; margin: 140px 0px; float: left;}
+.hsimg img {width:550px; height: 280px; float: right; margin: 50px 20px;}
+
+#himgall {width: 560px; height: 100px; position: absolute; right: 15px; bottom: 55px;}
+#himgall p {padding-top: 5px;}
+.himg {width: 130px; height: 90px; float: left; margin: 5px; margin: 5px; text-align: center; font-size: 10.1px;}
+.himg img {width: 130px; height: 90px;}
+.himg img:hover {border-bottom: 3px solid #000;}
+
+
+#bread {width: 100%; height: 500px; background: url(../img/bread.png) no-repeat center; background-size: 100% 100%; padding-top: 55px;}
+
+
+
+#col {width: 1100px; height: 450px; margin: 0 auto;}
+.cimgall {width: 450px; height: 340px; float: left; margin: 55px 0px;}
+.cimg img {width: 225px; height: 170px; padding: 7px; float: left;}
+.ctext {width: 500px; height: 200px; float: right; margin: 105px 20px;}
+
+
+
+#goods {width: 1100px; height: 500px; margin: 0 auto; position: relative;}
+#goods h2 {font-family: "카페24 단정해"; font-size: 35px; word-spacing: 10px; line-height: 1.2; text-align: center; padding-bottom: 20px;}
+.good {float: left; margin: 10px; width: 200px; height: 200px; background-color: #eee; text-align: center;}
+.good:hover {transform: scale(1.1); transition:0.3s; border-bottom: 4px solid #01b1c8; border-top: 4px solid #01b1c8;}
+.good img {width: 200px; height: 200px;}
+
+.gbtn {width: 80%; height: 80px; position: absolute; background-color: black; left: 100px; bottom: 65px; border-radius: 25px;}
+.gbtn:hover {border: 3px solid #01b1c8; color: #01b1c8;}
+.gbtn p {padding-top: 25px; padding-bottom: 25px; color: white; text-align: center;}
+
+
+
+#flour {width: 100%; height: 450px; margin: 0 auto; background: url(../img/flour.jpg) no-repeat center; background-size: 100% 100%; padding-top: 125px;}
+.ftext {color: white; font-family: "10x10"; font-size: 50px; font-weight: bold; text-align: center; cursor: default;}
+.ftext2 {color: white; font-family: "10x10"; font-size: 30px; font-weight: bold; word-spacing: 7px; cursor: default; text-align: center; padding-top: 30px; padding-bottom: 50px;}
+.btn {width: 50px; height: 40px; background-color: white; border-radius: 25px; font-weight: bold; font-size: 25px; padding-bottom: 10px; padding-left: 16px; margin: 0 auto;}
+
+
+
+#bok {width: 1100px; height: 450px; margin: 0 auto;}
+.btext {width: 490px; height: 170px; margin: 115px 0px; float: left;}
+.bimg img {width: 230px; height: 300px; margin: 75px 10px; float: right;}
+
+
+
+#sea {width: 1100px; height: 450px; margin: 0 auto;}
+.stext {width: 500px; height: 170px; float: right; margin: 115px 0px;}
+.simg img {width: 250px; height: 300px; margin: 75px 10px; float: left;}
