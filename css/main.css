@@ -6,9 +6,9 @@
   font-style: normal;
 }
 
-#slider{width: 100%; height: 382px; background-color: rgb(121, 204, 246); margin: 0 auto;}
-#slider img{width:900px; height: auto; position: relative; left: 430px; }
-#slider .title{position: relative; bottom: 250px; left: 350px; }
+#slider{width: 100%; height: 382px; background-color: rgb(121, 204, 246); margin: 0 auto;  position: relative;}
+#slider img{width:900px; height: auto; position: absolute; left: 430px; }
+#slider .title{position: absolute; bottom: 200px; left: 250px; }
 #slider h1{color:white; font-family: "SBAggroB"; font-size: 50px; }
 #slider h3{left: 150px; color:white;}
 
